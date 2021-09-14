@@ -1,7 +1,13 @@
 package com.github.m_n_s_projects.mscapitalism;
 
+import com.github.m_n_s_projects.mscapitalism.block.ModBlocks;
+import com.github.m_n_s_projects.mscapitalism.itam.ModItems;
+import com.github.m_n_s_projects.mscapitalism.util.Registration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -27,6 +33,10 @@ public class MSCapitalism
     public static String Mod_ID;
 
     public MSCapitalism() {
+
+        Registration.register();
+        ModBlocks.register();
+        ModItems.register();
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading
@@ -39,6 +49,12 @@ public class MSCapitalism
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
+    public  static  final ItemGroup MSCAPITALISM = new ItemGroup("mscapitalism") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(Items.RABBIT_FOOT);
+        }
+    };
 
     private void setup(final FMLCommonSetupEvent event)
     {
