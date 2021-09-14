@@ -1,15 +1,9 @@
-package com.github.m_n_s_projects.mscapitalism.itam;
+package com.github.m_n_s_projects.mscapitalism.item;
 
 
 import com.github.m_n_s_projects.mscapitalism.MSCapitalism;
-import com.github.m_n_s_projects.mscapitalism.block.ModBlocks;
 import com.github.m_n_s_projects.mscapitalism.util.Registration;
-import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.util.SoundEvent;
-import net.minecraft.util.SoundEvents;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 
 public class ModItems {

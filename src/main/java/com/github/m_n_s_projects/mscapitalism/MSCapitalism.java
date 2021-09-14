@@ -1,7 +1,5 @@
 package com.github.m_n_s_projects.mscapitalism;
 
-import com.github.m_n_s_projects.mscapitalism.block.ModBlocks;
-import com.github.m_n_s_projects.mscapitalism.itam.ModItems;
 import com.github.m_n_s_projects.mscapitalism.util.Registration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
