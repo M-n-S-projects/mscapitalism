@@ -1,4 +1,4 @@
-package com.gmail.sashabb07.mscapitalism;
+package com.github.m_n_s_projects.mscapitalism;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

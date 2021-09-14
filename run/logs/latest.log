@@ -8,15 +8,15 @@
 [14Sep2021 09:41:03.195] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
 [14Sep2021 09:41:04.375] [modloading-worker-11/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 34.1.0, for MC 1.16.3 with MCP 20200911.084530
 [14Sep2021 09:41:04.375] [modloading-worker-11/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v34.1.0 Initialized
-[14Sep2021 09:41:04.571] [Render thread/INFO] [com.gmail.sashabb07.mscapitalism.MSCapitalism/]: HELLO from Register Block
+[14Sep2021 09:41:04.571] [Render thread/INFO] [MSCapitalism/]: HELLO from Register Block
 [14Sep2021 09:41:05.906] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
 [14Sep2021 09:41:05.975] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[14Sep2021 09:41:05.995] [Worker-Main-8/INFO] [com.gmail.sashabb07.mscapitalism.MSCapitalism/]: HELLO FROM PREINIT
-[14Sep2021 09:41:05.996] [Worker-Main-8/INFO] [com.gmail.sashabb07.mscapitalism.MSCapitalism/]: DIRT BLOCK >> minecraft:dirt
+[14Sep2021 09:41:05.995] [Worker-Main-8/INFO] [MSCapitalism/]: HELLO FROM PREINIT
+[14Sep2021 09:41:05.996] [Worker-Main-8/INFO] [MSCapitalism/]: DIRT BLOCK >> minecraft:dirt
 [14Sep2021 09:41:06.019] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[14Sep2021 09:41:06.348] [Worker-Main-9/INFO] [com.gmail.sashabb07.mscapitalism.MSCapitalism/]: Got game settings net.minecraft.client.GameSettings@287be1d9
+[14Sep2021 09:41:06.348] [Worker-Main-9/INFO] [MSCapitalism/]: Got game settings net.minecraft.client.GameSettings@287be1d9
 [14Sep2021 09:41:07.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 34.1.0 Target: null
-[14Sep2021 09:41:11.472] [Worker-Main-9/INFO] [com.gmail.sashabb07.mscapitalism.MSCapitalism/]: Got IMC []
+[14Sep2021 09:41:11.472] [Worker-Main-9/INFO] [MSCapitalism/]: Got IMC []
 [14Sep2021 09:41:12.669] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
 [14Sep2021 09:41:12.670] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
 [14Sep2021 09:41:13.028] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
@@ -69,7 +69,7 @@
 [14Sep2021 09:41:52.588] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 80%
 [14Sep2021 09:41:53.087] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
 [14Sep2021 09:41:53.621] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
-[14Sep2021 09:41:53.840] [Server thread/INFO] [com.gmail.sashabb07.mscapitalism.MSCapitalism/]: HELLO from server starting
+[14Sep2021 09:41:53.840] [Server thread/INFO] [MSCapitalism/]: HELLO from server starting
 [14Sep2021 09:41:53.854] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 7282 ms
 [14Sep2021 09:41:54.048] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
 [14Sep2021 09:41:55.117] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.

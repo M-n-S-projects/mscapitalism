@@ -1,7 +1,7 @@
-package com.gmail.sashabb07.mscapitalism.util;
+package com.github.m_n_s_projects.mscapitalism.util;
 
 
-import com.gmail.sashabb07.mscapitalism.MSCapitalism;
+import com.github.m_n_s_projects.mscapitalism.MSCapitalism;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
