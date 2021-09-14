@@ -9,16 +9,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-public class regestration {
-    public  static final DeferredRegister<Block> BlOCKS
+public class Registration {
+    public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, MSCapitalism.Mod_ID);
-
-    public  static final DeferredRegister<Item> ITEMS
+    public static final DeferredRegister<Item> ITEMS
             = DeferredRegister.create(ForgeRegistries.ITEMS, MSCapitalism.Mod_ID);
-    public  static  void register() {
-        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        BlOCKS.register(eventBus);
-        ITEMS.register(eventBus);
 
+    public static void register() {
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        BLOCKS.register(eventBus);
+        ITEMS.register(eventBus);
     }
 }
