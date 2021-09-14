@@ -24,6 +24,7 @@ public class MSCapitalism
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
+    public static String Mod_ID;
 
     public MSCapitalism() {
         // Register the setup method for modloading
