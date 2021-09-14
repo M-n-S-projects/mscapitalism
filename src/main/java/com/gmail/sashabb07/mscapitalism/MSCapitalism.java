@@ -44,6 +44,7 @@ public class MSCapitalism
     {
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
+        LOGGER.info("lol");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
