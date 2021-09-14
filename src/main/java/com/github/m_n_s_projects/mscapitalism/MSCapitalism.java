@@ -28,7 +28,7 @@ public class MSCapitalism
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
-    public static String Mod_ID;
+    public static String MOD_ID;
 
     public MSCapitalism() {
 
@@ -46,7 +46,7 @@ public class MSCapitalism
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
-    public  static  final ItemGroup MSCAPITALISM = new ItemGroup("mscapitalism") {
+    public  static  final ItemGroup MSCAPITALISM_TAB = new ItemGroup("mscapitalism") {
         @Override
         public ItemStack createIcon() {
             return new ItemStack(Items.RABBIT_FOOT);
